@@ -6,8 +6,4 @@ layout: home
 title: Das Projekt
 ---
 
-Page content placed here.
-
 {%- include artists-overview.html -%}
-
-neu

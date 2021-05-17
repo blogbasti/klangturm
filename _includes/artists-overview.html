@@ -5,7 +5,7 @@
 
   {%- if artists.size > 0 -%}
     <ul class="artist-overview">
-      {%- assign date_format = site.artists_overview.date_format | default: "%d/%Y" -%}
+      {%- assign date_format = site.artists_overview.date_format | default: "%m/%Y" -%}
       {%- for artist in artists -%}
       <li>
         <span class="act-date">{{ artist.date | date: date_format }}</span>

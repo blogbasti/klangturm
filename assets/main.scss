@@ -1,0 +1,39 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+ul.artist-overview {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.artist-overview {
+  li {
+    display: block;
+    font-family: sans-serif;
+    font-variant-caps: petite-caps;
+    font-weight: bold;
+    @include media-query($on-palm) {
+      font-size: x-large;
+    }
+    font-size: xxx-large;
+    text-align: left;
+    vertical-align: baseline;
+    line-height: 40px;
+
+    span {
+      float: right;
+    }
+  }
+
+  a {
+    display: block;
+    // padding: 6px 12px;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+}
