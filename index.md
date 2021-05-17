@@ -3,7 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: Das Projekt
 ---
 
-{%- include artists-overview.html -%}
+<div class="artists-container">
+  {%- include artists-overview.html -%}
+  {%- include artists-title.html -%}
+</div>

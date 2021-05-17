@@ -1,0 +1,18 @@
+
+
+<div class="artists-title">
+  {% assign titles = site.data.main.artits_title %}
+
+  {%- if titles.size > 0 -%}
+    <ul class="artists-title">
+      {%- for title in titles -%}
+      <li>
+        <h3>
+          {{ title | escape }}
+        </h3>
+      </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+
+</div>

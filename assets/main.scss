@@ -4,6 +4,50 @@
 
 @import "minima";
 
+div.artists-container {
+  display: flex;
+}
+
+div.artists-title {
+  float: none;
+  width: 40%;
+}
+div.artists {
+  float: none;
+  width: 60%;
+}
+
+ul.artists-title {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.artists-title {
+  li {
+    display: block;
+    font-family: sans-serif;
+    font-variant-caps: petite-caps;
+    font-weight: bold;
+    @include media-query($on-palm) {
+      font-size: large;
+    }
+    font-size: x-large;
+    text-align: left;
+    vertical-align: baseline;
+    line-height: 30px;
+
+    span {
+      float: right;
+    }
+
+    h3 {
+      margin: 0;
+      text-align: right;
+    }
+  }
+}
+
 ul.artist-overview {
     margin: 0;
     padding: 0;
@@ -17,15 +61,19 @@ ul.artist-overview {
     font-variant-caps: petite-caps;
     font-weight: bold;
     @include media-query($on-palm) {
-      font-size: x-large;
+      font-size: large;
     }
-    font-size: xxx-large;
+    font-size: x-large;
     text-align: left;
     vertical-align: baseline;
-    line-height: 40px;
+    line-height: 30px;
 
     span {
       float: right;
+    }
+
+    h3 {
+      margin: 0;
     }
   }
 
