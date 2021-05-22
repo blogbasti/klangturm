@@ -16,7 +16,12 @@
 title: Klangturm Hamburg-Veddel
 email: klangturm.hamburg.veddel@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Adresse: Wilhelmsburger Str. 73, 20539 Hamburg
+  Wilhelmsburger Str. 73, 20539 Hamburg
+  8:00 - 20:00
+  jeden Tag außer montags
+  every day except Mondays
+  pazartesi hariç her gün
+  çdo ditë përveç të hënës
 baseurl: "/klangturm" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
