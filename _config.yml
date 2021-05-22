@@ -16,11 +16,8 @@
 title: Klangturm Hamburg-Veddel
 email: klangturm.hamburg.veddel@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hamburg hat jetzt einen Klangturm und er steht im zentrumsnahen und vielfach außergewöhnlichen Stadtteil Veddel. Im 1952 wiederaufgebauten Turm der ev.-luth. Immanuelkirche läuten keine Glocken mehr, jetzt ertönen Klänge aus Lautsprechern.
-  Die Klangprogramme von 12 Künstler*innen und einer Schulklasse dienen wie Glockenschläge der Signalisierung der Uhrzeit.
-  Es nehmen teil: Andrew Pekler (Berlin), Nika Son (Hamburg), Félicia Atkinson (Paris), Hans Schüttler (Hamburg), Tintin Patrone (Hamburg), Derya Yildirim (Berlin), Frank Bretschneider (Berlin), AtomTM (Santiago de Chile), Dave Wheels (London), Even Tuell (Kleestadt), Midori Takada (Tokio), Olaf Nicolai (Berlin) sowie Kinder einer Musikklasse der Schule auf der Veddel.
-  Zu hören sind die Klänge vom 01.07.2021 bis 31.07.2022 täglich außer montags jeweils von 8 bis 20 Uhr im Viertelstundentakt.
-  Das Projekt wird unterstützt vom Verfügungsfonds des Stadtteilbeirats Hamburg-Veddel, dem Musikfonds e.V. sowie der Gwärtler-Stiftung.  
+  Hier befindet sich der Klangturm Hamburg-Veddel:
+  https://www.google.de/maps/place/Wilhelmsburger+Str.+73,+20539+Hamburg/@53.5253632,10.01535,17z/data=!3m1!4b1!4m5!3m4!1s0x47b18e5d1b016a53:0x5d7d5de31e01d4d8!8m2!3d53.5253632!4d10.0175387
 baseurl: "/klangturm" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
