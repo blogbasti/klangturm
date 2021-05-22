@@ -26,6 +26,9 @@ div.artists-container {
 div.artists-title {
   float: none;
   width: 40%;
+  padding-left: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 div.artists {
   float: none;
