@@ -1,7 +1,8 @@
 
 
 <div class="artists-title">
-  {% assign titles = site.data.main.artists_title %}
+  {% assign main = site.data.main %}
+  {% assign titles = main.artists_title | push: main.saison %}
 
   {%- if titles.size > 0 -%}
     <ul class="artists-title">
@@ -15,4 +16,22 @@
     </ul>
   {%- endif -%}
 
+  <div class="artists-title-lower-part">
+  <ul class="artists-title-opening-hours">
+    <li>
+      <h4>
+        {{ main.opening.hours | escape }}
+      </h4>
+    </li>
+  </ul>
+  <ul class="artists-title-opening-days">
+    {%- for title in main.opening.days -%}
+    <li>
+      <h4>
+        {{ title | escape }}
+      </h4>
+    </li>
+    {%- endfor -%}
+  </ul>
+  </div>
 </div>
