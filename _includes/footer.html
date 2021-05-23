@@ -8,6 +8,7 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
+          {%- if site.show_author_or_title_before_email -%}
           <li class="p-name">
             {%- if site.author -%}
               {{ site.author | escape }}
@@ -15,6 +16,7 @@
               {{ site.title | escape }}
             {%- endif -%}
             </li>
+          {%- endif -%}
             {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
