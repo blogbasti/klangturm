@@ -87,7 +87,7 @@ ul.artists-title {
     font-variant-caps: petite-caps;
     font-weight: bold;
     @include media-query($on-palm) {
-      font-size: smaller;
+      font-size: x-small;
       line-height: 15px;
     }
     font-size: medium;
@@ -110,6 +110,7 @@ ul.artists-title {
   position: absolute;
   @include media-query($on-palm) {
     bottom: auto;
+    padding-top: 10px;
   }
   bottom: 0;
   display: inline-block;
@@ -131,7 +132,7 @@ ul.artist-overview {
     font-variant-caps: petite-caps;
     font-weight: bold;
     @include media-query($on-palm) {
-      font-size: smaller;
+      font-size: x-small;
     }
     font-size: x-large;
     text-align: left;
