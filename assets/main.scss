@@ -5,18 +5,27 @@
 @import "minima";
 
 .footer-col-1 {
-    width: -webkit-calc(40% - (30px / 2));
-    width: calc(40% - (30px / 2));
+  @include media-query($on-palm) {
+    width: calc(100% - (30px / 2));
+  }
+  width: -webkit-calc(40% - (30px / 2));
+  width: calc(40% - (30px / 2));
 }
 
 .footer-col-2 {
-    width: -webkit-calc(30% - (30px / 2));
-    width: calc(30% - (30px / 2));
+  @include media-query($on-palm) {
+    width: calc(100% - (30px / 2));
+  }
+  width: -webkit-calc(30% - (30px / 2));
+  width: calc(30% - (30px / 2));
 }
 
 .footer-col-3 {
-    width: -webkit-calc(30% - (30px / 2));
-    width: calc(30% - (30px / 2));
+  @include media-query($on-palm) {
+    width: calc(100% - (30px / 2));
+  }
+  width: -webkit-calc(30% - (30px / 2));
+  width: calc(30% - (30px / 2));
 }
 
 div.artists-container {
@@ -48,7 +57,7 @@ ul.artists-title {
     font-variant-caps: petite-caps;
     font-weight: bold;
     @include media-query($on-palm) {
-      font-size: large;
+      font-size: smaller;
     }
     font-size: x-large;
     text-align: left;
@@ -79,11 +88,14 @@ ul.artist-overview {
     font-variant-caps: petite-caps;
     font-weight: bold;
     @include media-query($on-palm) {
-      font-size: large;
+      font-size: smaller;
     }
     font-size: x-large;
     text-align: left;
     vertical-align: baseline;
+    @include media-query($on-palm) {
+      line-height: 20px;
+    }
     line-height: 30px;
 
     span {
