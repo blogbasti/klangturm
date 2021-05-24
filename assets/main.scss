@@ -4,6 +4,13 @@
 
 @import "minima";
 
+.white-box-with-shadow {
+    border: 1px solid white;
+    padding: 10px;
+    box-shadow: 4px 3px 8px 1px #969696;
+    -webkit-box-shadow: 4px 3px 8px 1px #969696;
+}
+
 .footer-sponsors {
   img {
     @include media-query($on-palm) {
