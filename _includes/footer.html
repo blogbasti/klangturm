@@ -36,7 +36,7 @@
       <p class="sponsors-title">Gefördert durch:</p>
       {%- assign sponsors = site.data.sponsors -%}
       {%- for sponsor in sponsors -%}
-      <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}"/>
+      <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}" style="{{ sponsor.style }}"/>
       {%- endfor -%}
     </div>
 
