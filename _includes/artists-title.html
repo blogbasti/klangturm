@@ -17,14 +17,12 @@
   {%- endif -%}
 
   <div class="artists-title-lower-part">
-  <ul class="artists-title-opening-hours">
+  <ul class="artists-title-opening-days">
     <li>
       <h4>
         {{ main.opening.hours | escape }}
       </h4>
     </li>
-  </ul>
-  <ul class="artists-title-opening-days">
     {%- for title in main.opening.days -%}
     <li>
       <h4>
