@@ -123,7 +123,7 @@ ul.artists-title {
 .artists-title-lower-part {
   position: absolute;
   @include media-query($on-palm) {
-    bottom: auto;
+    // bottom: auto;
     padding-top: 10px;
   }
   bottom: 0;
