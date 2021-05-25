@@ -70,7 +70,6 @@ ul.artists-title {
   position: relative;
   li {
     display: block;
-    font-family: sans-serif;
     font-variant-caps: petite-caps;
     font-weight: bold;
     @include media-query($on-palm) {
@@ -99,7 +98,6 @@ ul.artists-title {
 
   li {
     display: block;
-    font-family: sans-serif;
     font-variant-caps: petite-caps;
     font-weight: bold;
     @include media-query($on-palm) {
@@ -144,7 +142,6 @@ ul.artist-overview {
 .artist-overview {
   li {
     display: block;
-    font-family: sans-serif;
     font-variant-caps: petite-caps;
     font-weight: bold;
     @include media-query($on-palm) {
