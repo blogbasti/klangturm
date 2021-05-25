@@ -70,7 +70,7 @@ ul.artists-title {
   position: relative;
   li {
     display: block;
-    font-variant-caps: petite-caps;
+    // font-variant-caps: petite-caps;
     font-weight: bold;
     @include media-query($on-palm) {
       font-size: smaller;
@@ -98,7 +98,7 @@ ul.artists-title {
 
   li {
     display: block;
-    font-variant-caps: petite-caps;
+    // font-variant-caps: petite-caps;
     font-weight: bold;
     @include media-query($on-palm) {
       font-size: x-small;
@@ -142,8 +142,8 @@ ul.artist-overview {
 .artist-overview {
   li {
     display: block;
-    font-variant-caps: petite-caps;
-    font-weight: bold;
+    // font-variant-caps: petite-caps;
+    // font-weight: bold;
     @include media-query($on-palm) {
       font-size: x-small;
     }
