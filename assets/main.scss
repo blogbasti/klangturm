@@ -70,7 +70,6 @@ ul.artists-title {
   position: relative;
   li {
     display: block;
-    // font-variant-caps: petite-caps;
     font-weight: bold;
     @include media-query($on-palm) {
       font-size: smaller;
@@ -92,14 +91,12 @@ ul.artists-title {
   }
 }
 
-.artists-title-opening-hours,
 .artists-title-opening-days {
   margin-left: 0;
+  margin-bottom: 0;
 
   li {
     display: block;
-    // font-variant-caps: petite-caps;
-    font-weight: bold;
     @include media-query($on-palm) {
       font-size: x-small;
       line-height: 15px;
@@ -142,8 +139,7 @@ ul.artist-overview {
 .artist-overview {
   li {
     display: block;
-    // font-variant-caps: petite-caps;
-    // font-weight: bold;
+    text-transform: uppercase;
     @include media-query($on-palm) {
       font-size: x-small;
     }
@@ -166,9 +162,8 @@ ul.artist-overview {
 
   a {
     display: block;
-    // padding: 6px 12px;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: normal;
   }
 
 }
