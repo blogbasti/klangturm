@@ -1,5 +1,5 @@
 current directory: /home/travis/build/blogbasti/klangturm/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/ext/fastfilereader
-/home/travis/.rvm/rubies/ruby-2.6.6/bin/ruby -I /home/travis/.rvm/rubies/ruby-2.6.6/lib/ruby/site_ruby/2.6.0 -r ./siteconf20210525-6185-9sjr6j.rb extconf.rb
+/home/travis/.rvm/rubies/ruby-2.6.6/bin/ruby -I /home/travis/.rvm/rubies/ruby-2.6.6/lib/ruby/site_ruby/2.6.0 -r ./siteconf20210526-6163-1vjj108.rb extconf.rb
 creating Makefile
 
 current directory: /home/travis/build/blogbasti/klangturm/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/ext/fastfilereader
@@ -29,4 +29,4 @@ linking shared-object fastfilereaderext.so
 
 current directory: /home/travis/build/blogbasti/klangturm/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/ext/fastfilereader
 make "DESTDIR=" install
-/usr/bin/install -m 0755 fastfilereaderext.so ./.gem.20210525-6185-1djpecm
+/usr/bin/install -m 0755 fastfilereaderext.so ./.gem.20210526-6163-1qe8lbo
