@@ -8,7 +8,7 @@ saison: 2021/2022
 opening:
   hours: "08:00 - 20:00"
   days:
-    - jeden Tag außer montags
-    - every day except Mondays
-    - pazartesi hariç her gün
-    - çdo ditë përveç të hënës
+    - täglich außer montags
+    - daily except Mondays
+    - Pazartesi hariç günlük
+    - çdo ditë, përveç të hënave

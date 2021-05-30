@@ -16,20 +16,4 @@
     </ul>
   {%- endif -%}
 
-  <div class="artists-title-lower-part">
-  <ul class="artists-title-opening-days">
-    <li>
-      <h4>
-        {{ main.opening.hours | escape }}
-      </h4>
-    </li>
-    {%- for title in main.opening.days -%}
-    <li>
-      <h4>
-        {{ title | escape }}
-      </h4>
-    </li>
-    {%- endfor -%}
-  </ul>
-  </div>
 </div>
