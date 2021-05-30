@@ -29,6 +29,19 @@
 
       <div class="footer-col footer-col-3">
         <p>{{- site.description | escape -}}</p>
+        <div class="footer-opening-days">
+          {% assign main = site.data.main %}
+          <ul>
+            <li>
+                {{ main.opening.hours | escape }}
+            </li>
+            {%- for title in main.opening.days -%}
+            <li>
+                {{ title | escape }}
+            </li>
+            {%- endfor -%}
+          </ul>
+        </div>
       </div>
     </div>
 
