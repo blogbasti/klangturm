@@ -4,6 +4,24 @@
 
 @import "minima";
 
+@mixin headline_font {
+  text-transform: uppercase;
+  font-weight: 400;
+  @include media-query($on-palm) {
+    font-size: large;
+  }
+  font-size: large;
+}
+
+@mixin biggest_font {
+    font-weight: 300;
+    @include media-query($on-palm) {
+      font-size: smaller;
+      line-height: 20px;
+    }
+    font-size: xx-large;
+}
+
 .white-box-with-shadow {
     border: 1px solid white;
     padding: 10px;
@@ -50,14 +68,14 @@ div.artists-container {
 
 div.artists-title {
   float: none;
-  width: 40%;
+  width: 30%;
   padding-left: 10px;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 div.artists {
   float: none;
-  width: 60%;
+  width: 70%;
 }
 
 ul.artists-title {
@@ -70,12 +88,7 @@ ul.artists-title {
   position: relative;
   li {
     display: block;
-    font-weight: bold;
-    @include media-query($on-palm) {
-      font-size: smaller;
-      line-height: 20px;
-    }
-    font-size: xx-large;
+    @include biggest_font;
     text-align: left;
     vertical-align: baseline;
     line-height: 40px;
@@ -86,54 +99,39 @@ ul.artists-title {
 
     h3 {
       margin: 0;
+      @include biggest_font;
       text-align: right;
     }
   }
 }
 
-.artists-title-opening-days {
+.footer-opening-days {
   margin-left: 0;
   margin-bottom: 0;
 
+  ul {
+    margin-left: 0;
+  }
+
   li {
     display: block;
-    @include media-query($on-palm) {
-      font-size: x-small;
-      line-height: 15px;
-    }
-    font-size: medium;
     text-align: left;
     vertical-align: baseline;
-    line-height: 20px;
-
-    span {
-      float: right;
-    }
-
-    h4 {
-      margin: 0;
-      text-align: right;
-    }
   }
-}
-
-.artists-title-lower-part {
-  position: absolute;
-  @include media-query($on-palm) {
-    // bottom: auto;
-    padding-top: 10px;
-  }
-  bottom: 0;
-  display: inline-block;
-  text-align: right;
-  width: -webkit-calc(100% - (20px / 2));
-  width: calc(100% - (20px / 2));
 }
 
 ul.artist-overview {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+.site-title {
+  @include headline_font;
+}
+
+.footer-heading {
+  @include headline_font;
 }
 
 .artist-overview {
@@ -153,6 +151,7 @@ ul.artist-overview {
 
     span {
       float: right;
+      font-weight: 300;
     }
 
     h3 {
@@ -163,7 +162,8 @@ ul.artist-overview {
   a {
     display: block;
     text-decoration: none;
-    font-weight: normal;
+    font-weight: 300;
+    color: black;
   }
 
 }

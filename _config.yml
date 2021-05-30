@@ -16,7 +16,6 @@
 title: Klangturm Hamburg-Veddel
 email: klangturm.hamburg.veddel@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Adresse:
   Wilhelmsburger Str. 73, 20539 Hamburg
 baseurl: "/klangturm" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
