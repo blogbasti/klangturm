@@ -3,8 +3,10 @@
 
   <div class="wrapper">
 
+    {%- if site.show_title_in_footer -%}
     <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
+    {%- endif -%}
+    
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">

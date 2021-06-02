@@ -4,22 +4,31 @@
 
 @import "minima";
 
+$main_font_weight: 100;
+
 @mixin headline_font {
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 100;
   @include media-query($on-palm) {
-    font-size: large;
+    font-size: 18px;
   }
-  font-size: large;
+  font-size: 28px;
+  letter-spacing: normal;
+  line-height: 1;
 }
 
 @mixin biggest_font {
-    font-weight: 300;
+    font-weight: $main_font_weight;
     @include media-query($on-palm) {
-      font-size: smaller;
-      line-height: 20px;
+      font-size: 17px;
+      line-height: 1.2;
     }
-    font-size: xx-large;
+    font-size: 24px;
+    line-height: 1;
+}
+
+.site-nav {
+    text-transform: uppercase;
 }
 
 .white-box-with-shadow {
@@ -91,15 +100,16 @@ ul.artists-title {
     @include biggest_font;
     text-align: left;
     vertical-align: baseline;
-    line-height: 40px;
+    // line-height: 40px;
 
     span {
       float: right;
+      @include headline_font;
     }
 
     h3 {
       margin: 0;
-      @include biggest_font;
+      @include headline_font;
       text-align: right;
     }
   }
@@ -128,6 +138,10 @@ ul.artist-overview {
 
 .site-title {
   @include headline_font;
+  @include media-query($on-palm) {
+    font-size: 18px;
+  }
+  line-height: 58px;
 }
 
 .footer-heading {
@@ -138,31 +152,31 @@ ul.artist-overview {
   li {
     display: block;
     text-transform: uppercase;
-    @include media-query($on-palm) {
-      font-size: x-small;
-    }
-    font-size: x-large;
+    // @include media-query($on-palm) {
+    //   font-size: x-small;
+    // }
     text-align: left;
     vertical-align: baseline;
-    @include media-query($on-palm) {
-      line-height: 20px;
-    }
-    line-height: 30px;
+    // @include media-query($on-palm) {
+    //   line-height: 20px;
+    // }
+    // line-height: 30px;
 
     span {
       float: right;
-      font-weight: 300;
+      @include biggest_font;
     }
 
     h3 {
       margin: 0;
+      @include biggest_font;
     }
   }
 
   a {
     display: block;
     text-decoration: none;
-    font-weight: 300;
+    font-weight: $main_font_weight;
     color: black;
   }
 

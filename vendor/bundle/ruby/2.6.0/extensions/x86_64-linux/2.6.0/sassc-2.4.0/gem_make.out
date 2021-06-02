@@ -1,5 +1,5 @@
 current directory: /home/travis/build/blogbasti/klangturm/vendor/bundle/ruby/2.6.0/gems/sassc-2.4.0/ext
-/home/travis/.rvm/rubies/ruby-2.6.6/bin/ruby -I /home/travis/.rvm/rubies/ruby-2.6.6/lib/ruby/site_ruby/2.6.0 -r ./siteconf20210601-6161-y3c7bi.rb extconf.rb
+/home/travis/.rvm/rubies/ruby-2.6.6/bin/ruby -I /home/travis/.rvm/rubies/ruby-2.6.6/lib/ruby/site_ruby/2.6.0 -r ./siteconf20210602-6094-2vtshu.rb extconf.rb
 creating Makefile
 
 current directory: /home/travis/build/blogbasti/klangturm/vendor/bundle/ruby/2.6.0/gems/sassc-2.4.0/ext
@@ -77,4 +77,4 @@ linking shared-object sassc/libsass.so
 
 current directory: /home/travis/build/blogbasti/klangturm/vendor/bundle/ruby/2.6.0/gems/sassc-2.4.0/ext
 make "DESTDIR=" install
-/usr/bin/install -m 0755 libsass.so ./.gem.20210601-6161-1b8543k/sassc
+/usr/bin/install -m 0755 libsass.so ./.gem.20210602-6094-uq8bq3/sassc
