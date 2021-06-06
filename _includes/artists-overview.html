@@ -10,7 +10,7 @@
       <li>
         <span class="act-date">{{ artist.date | date: date_format }}</span>
         <h3>
-          <a class="artist-link" href="{{ post.url | relative_url }}">
+          <a class="artist-link" href="{{ artist.name | datapage_url: 'artist' | relative_url }}">
             {{ artist.name | escape }}
           </a>
         </h3>

@@ -27,6 +27,12 @@ $main_font_weight: 100;
     line-height: 1;
 }
 
+@mixin normal_font {
+  @include biggest_font;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 .site-nav {
     text-transform: uppercase;
 }
@@ -180,4 +186,14 @@ ul.artist-overview {
     color: black;
   }
 
+}
+
+article.artist {
+  .post-title {
+    @include biggest_font;
+  }
+
+  .post-content {
+    @include normal_font;
+  }
 }
