@@ -1,0 +1,60 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    {%- if site.show_title_in_footer -%}
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    {%- endif -%}
+    
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          {%- if site.show_author_or_title_before_email -%}
+          <li class="p-name">
+            {%- if site.author -%}
+              {{ site.author | escape }}
+            {%- else -%}
+              {{ site.title | escape }}
+            {%- endif -%}
+            </li>
+          {%- endif -%}
+            {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email | replace: "@", " at "}}</a></li>
+            {%- endif -%}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        {%- include social.html -%}
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>{{- site.description | escape -}}</p>
+        <div class="footer-opening-days">
+          {% assign main = site.data.main %}
+          <ul>
+            <li>
+                {{ main.opening.hours | escape }}
+            </li>
+            {%- for title in main.opening.days -%}
+            <li>
+                {{ title | escape }}
+            </li>
+            {%- endfor -%}
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-sponsors">
+      <p class="sponsors-title">Gefördert durch:</p>
+      {%- assign sponsors = site.data.sponsors -%}
+      {%- for sponsor in sponsors -%}
+      <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}" style="{{ sponsor.style }}"/>
+      {%- endfor -%}
+    </div>
+
+  </div>
+
+</footer>
