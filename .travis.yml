@@ -12,6 +12,7 @@ addons:
 script:
   - bundle exec jekyll build
   - bundle exec htmlproofer --url-swap '^/klangturm/:/' --assume-extension ./_site
+  - :>_site/.nojekyll # disable jekyll processing on github pages
 
 deploy:
   provider: pages
