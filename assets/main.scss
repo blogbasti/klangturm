@@ -5,6 +5,23 @@
 @import "minima";
 
 $main_font_weight: 100;
+$font_dir_roboto: 'fonts/roboto/';
+
+@font-face {
+    font-family: 'Roboto Thin';
+    src: url($font_dir_roboto + 'Roboto-Thin-webfont.eot');
+    src: url($font_dir_roboto + 'Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url($font_dir_roboto + 'Roboto-Thin-webfont.woff2') format('woff2'),
+         url($font_dir_roboto + 'Roboto-Thin-webfont.woff') format('woff'),
+         url($font_dir_roboto + 'Roboto-Thin-webfont.ttf') format('truetype'),
+         url($font_dir_roboto + 'Roboto-Thin-webfont.svg#robotothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  font-family: 'Roboto Thin';
+}
 
 @mixin headline_font {
   text-transform: uppercase;
