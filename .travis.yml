@@ -11,7 +11,7 @@ addons:
 
 script:
   - bundle exec jekyll build
-  - bundle exec htmlproofer --assume-extension ./_site
+  - bundle exec htmlproofer --url-swap '^/klangturm/:/' --assume-extension ./_site
 
 deploy:
   provider: pages
