@@ -1,5 +1,5 @@
 current directory: /home/travis/build/blogbasti/klangturm/vendor/bundle/ruby/2.6.0/gems/nokogumbo-2.0.5/ext/nokogumbo
-/home/travis/.rvm/rubies/ruby-2.6.6/bin/ruby -I /home/travis/.rvm/rubies/ruby-2.6.6/lib/ruby/site_ruby/2.6.0 -r ./siteconf20210607-6998-1ppgipn.rb extconf.rb
+/home/travis/.rvm/rubies/ruby-2.6.6/bin/ruby -I /home/travis/.rvm/rubies/ruby-2.6.6/lib/ruby/site_ruby/2.6.0 -r ./siteconf20210607-6949-tzzjdm.rb extconf.rb
 checking for whether -I/home/travis/build/blogbasti/klangturm/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.11.7-x86_64-linux/ext/nokogiri is accepted as CFLAGS... yes
 checking for whether -I/home/travis/build/blogbasti/klangturm/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.11.7-x86_64-linux/ext/nokogiri/include is accepted as CFLAGS... yes
 checking for whether -I/home/travis/build/blogbasti/klangturm/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.11.7-x86_64-linux/ext/nokogiri/include/libxml2 is accepted as CFLAGS... yes
@@ -34,4 +34,4 @@ linking shared-object nokogumbo/nokogumbo.so
 
 current directory: /home/travis/build/blogbasti/klangturm/vendor/bundle/ruby/2.6.0/gems/nokogumbo-2.0.5/ext/nokogumbo
 make "DESTDIR=" install
-/usr/bin/install -m 0755 nokogumbo.so ./.gem.20210607-6998-1l8zsj2/nokogumbo
+/usr/bin/install -m 0755 nokogumbo.so ./.gem.20210607-6949-lx0vjf/nokogumbo
