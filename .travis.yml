@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-  - 2.6
+  - 2.7.3
 sudo: false # route your build to the container-based infrastructure for a faster build
 before_install:
  - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
