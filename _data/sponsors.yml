@@ -1,3 +1,7 @@
+show:
+  in_footer: false
+  in_about: true
+members:
 - name: Musikfonds
   logo: assets/img/sponsors/musikfonds_web_color+rand.png
 - name: Die Beauftragte der Bundesregierung für Kultur und Medien

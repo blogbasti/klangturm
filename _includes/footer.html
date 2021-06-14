@@ -6,7 +6,7 @@
     {%- if site.show_title_in_footer -%}
     <h2 class="footer-heading">{{ site.title | escape }}</h2>
     {%- endif -%}
-    
+
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
@@ -46,15 +46,15 @@
         </div>
       </div>
     </div>
-
+    {%- if site.data.sponsors.show.in_footer -%}
     <div class="footer-sponsors">
       <p class="sponsors-title">Gefördert durch:</p>
-      {%- assign sponsors = site.data.sponsors -%}
+      {%- assign sponsors = site.data.sponsors.members -%}
       {%- for sponsor in sponsors -%}
       <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}" style="{{ sponsor.style }}"/>
       {%- endfor -%}
     </div>
-
+    {%- endif -%}
   </div>
 
 </footer>

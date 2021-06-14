@@ -13,3 +13,16 @@ Hamburg now has a sound tower, and it is located in Veddel, a district close to 
 The sound programmes by 12 artists and a school class serve like chimes to signal the time.
 The sounds can be heard from 01.07.2021 to 31.07.2022 every day except Mondays from 8 am to 8 pm at quarter-hourly intervals.
 The project is supported by Verfügungsfonds of the Hamburg-Veddel district council, Musikfonds e.V. and Gwärtler Foundation.
+
+{%- if site.data.sponsors.show.in_about -%}
+
+<br/>
+  <div class="footer-sponsors">
+  <p class="sponsors-title">Gefördert durch:</p>
+  {%- assign sponsors = site.data.sponsors.members -%}
+  {%- for sponsor in sponsors -%}
+  <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}" style="{{ sponsor.style }}"/>
+  {%- endfor -%}
+  </div>
+
+{%- endif -%}
