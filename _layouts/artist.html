@@ -8,12 +8,18 @@ layout: default
   </header>
 
   <div class="post-content">
+    {%- if page.description.first -%}
+    {%-   for p in page.description -%}
+    <p>{{ p }}</p>
+    {%-   endfor -%}
+    {%- else -%}
+    {{ page.description }}
+    {%- endif -%}
     {%- if page.website -%}
     <p>
       <a href="{{ page.website }}" rel="nofollow">Homepage</a>
     </p>
     {%- endif -%}
-    {{ page.description }}
   </div>
 
 </article>
