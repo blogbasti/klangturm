@@ -5,7 +5,8 @@
 layout: home
 ---
 
+{%- include artists-title.html -%}
+
 <div class="artists-container">
   {%- include artists-overview.html -%}
-  {%- include artists-title.html -%}
 </div>

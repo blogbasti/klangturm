@@ -1,19 +1,14 @@
 
 
-<div class="artists-title">
+<div class="artists-headline">
   {% assign main = site.data.main %}
   {% assign titles = main.artists_title | push: main.saison %}
 
   {%- if titles.size > 0 -%}
-    <ul class="artists-title">
-      {%- for title in titles -%}
-      <li>
-        <h3>
-          {{ title | escape }}
-        </h3>
-      </li>
-      {%- endfor -%}
-    </ul>
+  <h3>
+    {%- for title in titles -%}
+    {{ title | escape }} &nbsp;
+    {%- endfor -%}
+  </h3>
   {%- endif -%}
-
 </div>

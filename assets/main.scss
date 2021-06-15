@@ -41,13 +41,17 @@ body {
       line-height: 1.2;
     }
     font-size: 24px;
-    line-height: 1;
+    line-height: 1.2;
 }
 
 @mixin normal_font {
   @include biggest_font;
   font-size: 16px;
   line-height: 1.5;
+}
+
+.page-content {
+  padding: 20px 0;
 }
 
 .site-nav {
@@ -98,6 +102,23 @@ div.artists-container {
   display: flex;
 }
 
+div.artists-headline {
+  float: none;
+  // width: 30%;
+  // padding-left: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  h3 {
+    margin: 0;
+    @include biggest_font;
+    line-height: 2;
+    @include media-query($on-palm) {
+      padding-bottom: 20px;
+    }
+  }
+}
+
 div.artists-title {
   float: none;
   width: 30%;
@@ -107,7 +128,7 @@ div.artists-title {
 }
 div.artists {
   float: none;
-  width: 70%;
+  width: 98%;
 }
 
 ul.artists-title {
