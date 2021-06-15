@@ -41,7 +41,7 @@
 - name: Tintin Patrone
   date: 2021-11-01
   descrioption:
-      test
+    - test
   exclude_from_main_menu: true
 - name: Derya Yildirim
   description:
@@ -84,8 +84,7 @@
     - 1999 veröffentlichte er mit seinem Musikfreund Jens Kuhn die Serie „Airbag Craftworks Compilation“ auf dessen Label “Out to Lunch”. Die musikalischen Vorlieben der beiden zeigen ausgewählte Tracks von Künstlern wie u.a. Isolée, Jan Jelinek, Roman Flügel & David Moufang.
     - Die leidenschaftliche Zusammenarbeit und Erweiterung ihres Musiknetzwerks legt den Grundstein für die Gründung ihres eigenen Labels Workshop Records. Workshop Records wird seit 2006 von PDR gemeinsam mit Kuhn geführt und hat bisher mehr als 30 (Vinyl-) Titel internationaler Künstler veröffentlicht. Darunter zählen Kassem Mosse, Move D, Willow, Madteo, Viola Klein, Benjamin Brunn, Ibrahim Alfa, Kiki Kudo, Tapes, Dj Slyngshot u.a.
     - Even Tuell veröffentlichte 2013 zusammen mit Midnightopera 3 Kompositionen basierend auf Klangaufnahmen & gespielten Passagen verschiedener Exponate (Musikinstrumente) der Ausstellung „Tranding Style -Weltmode im Dialog“, Weltkulturen Museum Frankfurt am Main.
-    - Paul David Rollmenn ist gelernter Modeschneider und Gründer sowie Kreativdirektor des Modelabels
-    Airbag Craftworks.
+    - Paul David Rollmenn ist gelernter Modeschneider und Gründer sowie Kreativdirektor des Modelabels sAirbag Craftworks.
   exclude_from_main_menu: true
 - name: Midori Takada
   date: 2022-05-01
