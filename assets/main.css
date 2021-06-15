@@ -278,6 +278,8 @@ table td { border: 1px solid #e8e8e8; }
 
 body { font-family: 'Roboto Thin'; }
 
+.page-content { padding: 20px 0; }
+
 .site-nav { text-transform: uppercase; }
 
 .white-box-with-shadow { border: 1px solid white; padding: 10px; box-shadow: 4px 3px 8px 1px #969696; -webkit-box-shadow: 4px 3px 8px 1px #969696; }
@@ -300,15 +302,23 @@ body { font-family: 'Roboto Thin'; }
 
 div.artists-container { display: flex; }
 
+div.artists-headline { float: none; overflow: hidden; text-overflow: ellipsis; }
+
+div.artists-headline h3 { margin: 0; font-weight: 100; font-size: 24px; line-height: 1.2; line-height: 2; }
+
+@media screen and (max-width: 600px) { div.artists-headline h3 { font-size: 17px; line-height: 1.2; } }
+
+@media screen and (max-width: 600px) { div.artists-headline h3 { padding-bottom: 20px; } }
+
 div.artists-title { float: none; width: 30%; padding-left: 10px; overflow: hidden; text-overflow: ellipsis; }
 
-div.artists { float: none; width: 70%; }
+div.artists { float: none; width: 98%; }
 
 ul.artists-title { margin: 0; padding: 0; list-style: none; }
 
 .artists-title { position: relative; }
 
-.artists-title li { display: block; font-weight: 100; font-size: 24px; line-height: 1; text-align: left; vertical-align: baseline; }
+.artists-title li { display: block; font-weight: 100; font-size: 24px; line-height: 1.2; text-align: left; vertical-align: baseline; }
 
 @media screen and (max-width: 600px) { .artists-title li { font-size: 17px; line-height: 1.2; } }
 
@@ -340,21 +350,21 @@ ul.artist-overview { margin: 0; padding: 0; list-style: none; }
 
 .artist-overview li { display: block; text-transform: uppercase; text-align: left; vertical-align: baseline; }
 
-.artist-overview li span { float: right; font-weight: 100; font-size: 24px; line-height: 1; }
+.artist-overview li span { float: right; font-weight: 100; font-size: 24px; line-height: 1.2; }
 
 @media screen and (max-width: 600px) { .artist-overview li span { font-size: 17px; line-height: 1.2; } }
 
-.artist-overview li h3 { margin: 0; font-weight: 100; font-size: 24px; line-height: 1; }
+.artist-overview li h3 { margin: 0; font-weight: 100; font-size: 24px; line-height: 1.2; }
 
 @media screen and (max-width: 600px) { .artist-overview li h3 { font-size: 17px; line-height: 1.2; } }
 
 .artist-overview a { display: block; text-decoration: none; font-weight: 100; color: black; }
 
-article.artist .post-title { font-weight: 100; font-size: 24px; line-height: 1; }
+article.artist .post-title { font-weight: 100; font-size: 24px; line-height: 1.2; }
 
 @media screen and (max-width: 600px) { article.artist .post-title { font-size: 17px; line-height: 1.2; } }
 
-article.artist .post-content { font-weight: 100; font-size: 24px; line-height: 1; font-size: 16px; line-height: 1.5; }
+article.artist .post-content { font-weight: 100; font-size: 24px; line-height: 1.2; font-size: 16px; line-height: 1.5; }
 
 @media screen and (max-width: 600px) { article.artist .post-content { font-size: 17px; line-height: 1.2; } }
 
