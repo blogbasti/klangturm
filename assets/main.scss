@@ -8,19 +8,19 @@ $main_font_weight: 100;
 $font_dir_roboto: 'fonts/roboto/';
 
 @font-face {
-    font-family: 'Roboto Thin';
-    src: url($font_dir_roboto + 'Roboto-Thin-webfont.eot');
-    src: url($font_dir_roboto + 'Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
-         url($font_dir_roboto + 'Roboto-Thin-webfont.woff2') format('woff2'),
-         url($font_dir_roboto + 'Roboto-Thin-webfont.woff') format('woff'),
-         url($font_dir_roboto + 'Roboto-Thin-webfont.ttf') format('truetype'),
-         url($font_dir_roboto + 'Roboto-Thin-webfont.svg#robotothin') format('svg');
+    font-family: 'Roboto Regular';
+    src: url($font_dir_roboto + 'Roboto-Regular-webfont.eot');
+    src: url($font_dir_roboto + 'Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url($font_dir_roboto + 'Roboto-Regular-webfont.woff2') format('woff2'),
+         url($font_dir_roboto + 'Roboto-Regular-webfont.woff') format('woff'),
+         url($font_dir_roboto + 'Roboto-Regular-webfont.ttf') format('truetype'),
+         url($font_dir_roboto + 'Roboto-Regular-webfont.svg#robotoregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 body {
-  font-family: 'Roboto Thin';
+  font-family: 'Roboto Regular';
 }
 
 @mixin headline_font {
@@ -182,10 +182,14 @@ ul.artist-overview {
 
 .site-title {
   @include headline_font;
+  line-height: 58px;
   @include media-query($on-palm) {
     font-size: 18px;
+    white-space: break-spaces;
+    width: 70%;
+    line-height: 1.5;
+    padding: 5px 0;
   }
-  line-height: 58px;
 }
 
 .footer-heading {
