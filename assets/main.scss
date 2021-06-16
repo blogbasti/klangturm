@@ -119,6 +119,15 @@ div.artists-headline {
   }
 }
 
+h1.post-title
+  margin: 0;
+  @include biggest_font;
+  line-height: 2;
+  @include media-query($on-palm) {
+    padding-bottom: 20px;
+  }
+}
+
 div.artists-title {
   float: none;
   width: 30%;
