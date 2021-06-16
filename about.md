@@ -18,7 +18,7 @@ The project is supported by Verfügungsfonds of the Hamburg-Veddel district coun
 
 <br/>
   <div class="footer-sponsors">
-  <p class="sponsors-title">Gefördert durch:</p>
+  <p class="sponsors-title">Gefördert von:</p>
   {%- assign sponsors = site.data.sponsors.members -%}
   {%- for sponsor in sponsors -%}
   <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}" style="{{ sponsor.style }}"/>
