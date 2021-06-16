@@ -1,9 +1,10 @@
 - name: Andrew Pekler
   date: 2021-07-01
   description:
-    - Andrew Pekler wurde in Samarqand in der Sowjetunion geboren. Als er sechs Jahre alt war, zog die Familie in die Vereinigten Staaten. Andrew Pekler ist erst in Philadelphia und später in Monterey in Kalifornien aufgewachsen. Mitte der 1990er Jahre zog er für ein Studium nach Heidelberg in Deutschland. In Deutschland entwickelt er seine Begeisterung für die elektronische Musik.
-    - Mit seinem Home Recording-Projekt Sad Rockets veröffentlichte er von 1997 bis 2000 unter anderem drei Alben. Als Sad Rockets war er auch in Mucus 2 aktiv. Das einzige Album "Excitation" wurde 1999 über Deck8 veröffentlicht. Ab 1999 war der Multiinstrumentalist Andrew Pekler in der deutschen Band Bergheim 34 aktiv. 2003 veröffentlichte diese das einzige Album "It's Not For You, As It Is For Us" über Klang Elektronik. Mit Jan Jelinek war er als Center Of Excellence aktiv.
-    - Unter seinem Namen Andrew Pekler tritt er seit Anfang der 2000er Jahre auf. Im April 2002 veröffentlichte er sein Solodebütalbum "Station To Station". An dem Album war unter anderem Elliot Levine (Saxophon) und Akira Ando (Bass) beteiligt. Pekler lernte Levine bei einer Show von Bergheim 34 in Philadelphia kennen. Sein zweites Album "Nocturnes, False Dawns & Breakdowns" veröffentlichte er auf dem Berliner Label ~scape. Das dritte Album "Strings + Feedback" ist auf Staubgold erschienen. Es - folgten weitere Soloalben. Erneut mit Jan Jelinek und mit Hanno Leichtmann war er ab 2009 als Groupshow aktiv. 2013 wurde die Zusammenarbeit "Holiday For Sampler" von Andrew Pekler mit dem Italiener Giuseppe Ielasi über Planam veröffentlicht. 2014 folgte das Album "The Prepaid Piano & Replayed" und im Oktober 2016 das Album "Tristes Tropiques".
+    - Andrew Pekler wurde in Samarqand in der Sowjetunion geboren. Als er sechs Jahre alt war, zog die Familie in die Vereinigten Staaten. Andrew Pekler ist erst in Philadelphia und später in Monterey in Kalifornien aufgewachsen. Mitte der 1990er Jahre zog er für ein Studium nach Heidelberg, wo er seine Begeisterung für die elektronische Musik entwickelte.
+    - Mit seinem Home Recording-Projekt Sad Rockets veröffentlichte er von 1997 bis 2000 unter anderem drei Alben. Ab 1999 war der Multiinstrumentalist Andrew Pekler in der deutschen Band Bergheim 34 aktiv. 2003 veröffentlichte diese das einzige Album "It's Not For You, As It Is For Us" über Klang Elektronik. Mit Jan Jelinek war er als Center Of Excellence aktiv.
+    - Unter seinem Namen Andrew Pekler tritt er seit Anfang der 2000er Jahre auf. 2002 veröffentlichte er sein Solodebütalbum "Station To Station". Sein zweites Album "Nocturnes, False Dawns & Breakdowns" veröffentlichte er auf dem Berliner Label ~scape. Das dritte Album "Strings + Feedback" ist auf Staubgold erschienen. Es folgten weitere Soloalben.
+    - Erneut mit Jan Jelinek und mit Hanno Leichtmann war er ab 2009 als Groupshow aktiv. 2013 wurde die Zusammenarbeit "Holiday For Sampler" von Andrew Pekler mit dem Italiener Giuseppe Ielasi über Planam veröffentlicht. 2014 folgte das Album "The Prepaid Piano & Replayed" und im Oktober 2016 das Album "Tristes Tropiques".
     - Als Komponist war Pekler bereits bei mehreren Theaterstücken tätig. Im Jahr 2007 arbeitete er am Schauspiel Hannover erstmals mit dem deutschen Regisseur Sebastian Baumgarten zusammen. Pekler komponierte die Musik zu "Faust". Es folgten weitere gemeinsame Produktionen "Der Fremde" (2008) am Schauspiel Frankfurt, "Dantons Tod" (2010) am Maxim-Gorki-Theater in Berlin und "Schuld und Sühne" (2014) am Schauspielhaus Zürich. Im April 2014 produzierte er die Musik für "Cargo Fleisch" von Clemens Bechtel am Schauspielhaus Hamburg.
   exclude_from_main_menu: true
 - name: Nika Son
@@ -15,6 +16,7 @@
     - Nika Son hat auf internationalen Festivals wie Intonal, Meakusma, IFFR, Klub Katarakt, Volt etc. gespielt und auf verschiedenen Labels wie First Terrace Records, Mmodemm, Sky Walking, Anti-Ghost Moon Ray und ihrem eigenen Imprint Noctui veröffentlicht.
     - Im März 2020 wurde ihr Debütalbum To Eeyore auf dem belgischen Label Entr'acte veröffentlicht.
     - Nika Breithaupt lebt und arbeitet in Hamburg.
+  website: http://www.nikason.de/
   exclude_from_main_menu: true
 - name: Félicia Atkinson
   date: 2021-09-01
@@ -27,6 +29,7 @@
     - Sie absolvierte Künstlerresidenzen bei Rupert Vilnius, CAC La Galerie Noisy le Sec, Los Angeles Contemporary Archives, Bundanon Trust in Australien, RMIT in Melbourne, EMS Studio in Stockholm.
     - Sie veröffentlichte ein Dutzend Platten und Bücher, die meisten davon bei Shelter Press.
     - Ihre letzte LP, Hand in Hand, war die Nummer 14 der Jahrescharts im The Wire Magazine, während das vorhergehende Werk, A readymade Ceremony, eines der besten experimentellen Alben" von Pichfork und Spin Magazine war.
+  website: https://feliciaatkinson.com/
   exclude_from_main_menu: true
 - name: Hans Schüttler
   date: 2021-10-01
@@ -37,11 +40,16 @@
     - Anfang der 1990iger Jahre begann er mit Korg MS 20 Synthesizer zu experimentieren. Er sammelte alte Kofferplattenspieler und fing so an, daraus Elektronische Klanglandschaften zu erzeugen.
     - 1999 begann er Musik für Hörspiel und Film für DRadio Berlin und dem NDR zu produzieren.
     - Hans Schüttler lebt und arbeitet in Hamburg.
+  website: https://www.hansschuettler.de/
   exclude_from_main_menu: true
 - name: Tintin Patrone
   date: 2021-11-01
-  descrioption:
-    - test
+  description:
+    - TinTin Patrone heißt mit bürgerlichem Name Christina Köhler und ist eine deutsch-philippinische Komponistin, Musikerin, Schauspielerin, Film- und Musikproduzentin sowie Malerin, Performancekünstlerin und Autorin. Sie gründete 2009 das Ensemble Krachkisten Orchestra, den International MusicMotorcycleClub 2012 und betreibt parallel verschiedene musikalische und künstlerische Einzelprojekte. Die Verbindung von Musik, Kunst, Sound und experimenteller Geste ist das generelle Feld, für das sich TinTin Patrone interessiert.
+    - Ein Fokus ihrer Arbeit liegt auf den visuellen Elementen der Musik, der Spannung zwischen konzeptuellen Ideen und physischer Existenz.
+    - Ihre Performances und Installationen beinhalten Elemente aus der musikalischen Konzeptkunst, Fluxus und Futurismus. Eine weitere wichtige Inspiration, die ihre künstlerische Praxis beeinflusst, ist die Kultur der Vereine und Clubs.
+    - 2021 ist sie Quartierskünstlerin auf der Veddel.
+  website: http://www.tintinpatrone.com/
   exclude_from_main_menu: true
 - name: Derya Yildirim
   description:
@@ -52,8 +60,9 @@
 - name: Frank Bretschneider
   date: 2022-01-01
   description:
-    - Nach einem Kunststudium begann Bretschneider 1984 mit der Produktion erster Musikstücke. Im Jahr 1986 gründete er gemeinsam mit Torsten Eckhardt sowie Jan und Ina Kummer die Gruppe AG. Geige. Zunächst als experimentelles Kunstprojekt angelegt, wurde die Band durch Lutz Schramms wöchentliche Radiosendung Parocktikum auf DT64 einem größeren Hörerinnenkreis bekannt.
-    - Mitte der 1980er Jahre gründete Bretschneider das Kassettenlabel klangFarBe, vorrangig, um die Kassettenalben seiner Band AG Geige und ihres Umfelds zu veröffentlichen. Mit einer maximalen Auflage von 50 Stück veröffentlichten dort u. a. die Kriminelle Tanzkapelle, Heinz & Franz, AG Geige und A.F. Moebius – ein Soloprojekt Bretschneiders. Eine höhere Stückzahl gab es nur vom Kassettenalbum Yachtclub und Buchteln (1987) von AG Geige, das ein Hit im punk-konnotierten DDR-Underground wurde. - Im Jahr 1990 erhielten AG Geige einen Plattenvertrag beim Label Amiga.
+    - Nach einem Kunststudium begann Frank Bretschneider 1984 mit der Produktion erster Musikstücke. Im Jahr 1986 gründete er gemeinsam mit Torsten Eckhardt sowie Jan und Ina Kummer die Gruppe AG Geige. Zunächst als experimentelles Kunstprojekt angelegt, wurde die Band durch Lutz Schramms wöchentliche Radiosendung Parocktikum auf DT64 einem größeren Hörerinnenkreis bekannt.
+    - Mitte der 1980er Jahre gründete Bretschneider das Kassettenlabel klangFarBe, vorrangig, um die Kassettenalben seiner Band AG Geige und ihres Umfelds zu veröffentlichen. Mit einer maximalen Auflage von 50 Stück veröffentlichten dort u. a. die Kriminelle Tanzkapelle, Heinz & Franz, AG Geige und A.F. Moebius – ein Soloprojekt Bretschneiders. Eine höhere Stückzahl gab es nur vom Kassettenalbum Yachtclub und Buchteln (1987) von AG Geige, das ein Hit im punk-konnotierten DDR-Underground wurde.
+    - Im Jahr 1990 erhielten AG Geige einen Plattenvertrag beim Label Amiga.
     - Nach der Auflösung der Band 1993 produzierte Bretschneider gemeinsam mit Olaf Bender, der Torsten Eckhardt 1989 abgelöst hatte. Im Jahr 1995 gründeten beide in Chemnitz das Label Rastermusic. In den folgenden Jahren kooperierte Rastermusic verstärkt mit dem ebenfalls in Chemnitz ansässigen Label noton. archiv für ton und nichtton des Musikers Carsten Nicolai. Im Jahr 1999 fusionierten beide Label zu Raster-Noton. Bretschneider zog sich später von der Labelarbeit zurück, blieb Raster-Noton aber privat wie auch als Künstler weiterhin verbunden.
     - Bretschneider veröffentlichte gemeinsam mit Carsten Nicolai, Olaf Bender, Tilo Seidel, Taylor Deupree, Ralph Steinbrüchel und Peter Duimelinks. Seine Werke erschienen auf Labels wie 12k, Mille Plateaux, Quatermass, Raster-Noton, Staalplaat und Mort Aux Vaches.
     - Frank Bretschneider lebt und arbeitet in Berlin.
@@ -69,10 +78,11 @@
 - name: Atom™
   date: 2022-03-01
   description:
-    - Erste musikalische Erfahrungen sammelte Schmidt ab Mitte der 1980er Jahre als Schlagzeuger. Zu dieser Zeit gründete er zusammen mit anderen Künstlern das Kassetten-Label NG Medien und produzierte als Lassigue Bendthaus und unter weiteren Pseudonymen verschiedene Ambient- und Industrial-Tracks. In den 1990er Jahren folgten erste internationale Veröffentlichungen in Großbritannien, Frankreich, Belgien und Spanien. Gemeinsam mit Ata und Marc Trauner veröffentlichte er als Killerloops, mit Ata und Heiko M/S/O als Ongaku. Sein eigenes Label Rather Interesting gründete er 1994.
+    - Erste musikalische Erfahrungen sammelte Uwe Schmidt ab Mitte der 1980er Jahre als Schlagzeuger. Zu dieser Zeit gründete er zusammen mit anderen Künstlern das Kassetten-Label NG Medien und produzierte als Lassigue Bendthaus und unter weiteren Pseudonymen verschiedene Ambient- und Industrial-Tracks. In den 1990er Jahren folgten erste internationale Veröffentlichungen in Großbritannien, Frankreich, Belgien und Spanien. Gemeinsam mit Ata und Marc Trauner veröffentlichte er als Killerloops, mit Ata und Heiko M/S/O als Ongaku. Sein eigenes Label Rather Interesting gründete er 1994.
     - Drei Jahre später zog er, gelangweilt von der europäischen Musikwelt, nach Chile und ließ sich dort in der Hauptstadt Santiago de Chile nieder. Beeinflusst von den Rhythmen lateinamerikanischer Tänze wie Cha-Cha-Cha oder Rumba veröffentlichte er 2000 als Señor Coconut das Album El baile alemán, auf welchem er Stücke der deutschen Band Kraftwerk als Latin-Versionen coverte. Die Single-Auskopplung Tour de France erreichte die deutschen Dance-Charts.
     - 1998 erschien unter dem Alias LB das Album Pop Artificielle mit Coverversionen u. a. von James Brown, Prince und David Bowie aus den 1980er Jahren. Seit 1999 veröffentlichte Schmidt gemeinsam mit Bernd Friedmann mehrere Alben unter dem Projektnamen Flanger.
     - 2003 folgte unter dem Projektnamen Señor Coconut and his Orchestra das Album „Fiesta Songs“, auf dem Schmidt unter anderem Songs von Michael Jackson (Beat It) und Deep Purple (Smoke on the Water) neu interpretierte. Drei Jahre später veröffentlichte er ebenfalls als Señor Coconut and his Orchestra das Album Yellow Fever mit 20 Coverversionen von Stücken des japanischen Elektropoptrios Yellow Magic Orchestra. 2008 brachte er auf Around the World erneut ein Album mit Coverversionen heraus, diesmal beispielsweise von Da Da Da ich lieb dich nicht du liebst mich nicht aha aha aha von Trio und Kiss von Prince.
+  website: https://atom-tm.com/
   exclude_from_main_menu: true
 - name: Even Tuell
   date: 2022-04-01
@@ -88,12 +98,16 @@
   exclude_from_main_menu: true
 - name: Midori Takada
   date: 2022-05-01
-  website: https://www.discogs.com/artist/408787-Midori-Takada
+  discogs: https://www.discogs.com/artist/408787-Midori-Takada
   description:
-    - Midori Takada (born 21 December 1951) is a Japanese composer and percussionist. She is considered a pioneer of ambient and minimalist music.
-    - Takada graduated from Tokyo University of the Arts and began her musical career in the mid-1970s as a percussionist with the Berlin RIAS Symphony Orchestra. She became dissatisfied with the Western classical music tradition and returned to Japan to study African drumming and Indonesian gamelan, as well as the early minimalism of Steve Reich and Terry Riley. She channelled these influences into the group Mkwaju Ensemble, which she formed with Joe Hisaishi, Yoji Sadanari, Junko Arase and Hideki Matsutake. Mkwaju Ensemble released two albums, Mkwaju and Ki-Motion, in 1981, and she also appeared on recordings by Toru Takemitsu and Satoshi Ashikawa at this time.
-    - Takada recorded her first solo LP, Through The Looking Glass, in three days in early 1983. She plays all the parts on the album, with varied instrumentation including percussion, marimba, gong, harmonium, bells, ocarina, piano and Coca-Cola glass bottles. The album was not commercially successful on release, but reached collectors in the late 2010s to become a collector's item thanks to internet distribution.
-    - The album was reissued on vinyl and CD in 2017 and was hailed as a "minimalist ambient masterpiece". Pitchfork named the album "Best new reissue" and it became the second best-selling release of 2017 on Discogs.
+    - Midori Takada (geboren am 21. Dezember 1951) ist eine japanische Komponistin und Perkussionistin. Sie gilt als Pionierin der Ambient- und minimalistischen Musik.
+    - Sie absolvierte die Tokyo University of the Arts und begann ihre musikalische Karriere Mitte der 1970er Jahre als Perkussionistin im Berliner RIAS-Sinfonieorchester. Sie wurde unzufrieden mit der westlichen klassischen Musiktradition und kehrte nach Japan zurück, um afrikanisches Trommeln und indonesisches Gamelan zu studieren, sowie den frühen Minimalismus von Steve Reich und Terry Riley. Diese Einflüsse kanalisierte sie in die Gruppe Mkwaju Ensemble, die sie mit Joe Hisaishi, Yoji Sadanari, Junko Arase und Hideki Matsutake gründete. Das Mkwaju Ensemble veröffentlichte 1981 zwei Alben, Mkwaju und Ki-Motion, und sie wirkte zu dieser Zeit auch auf Aufnahmen von Toru Takemitsu und Satoshi Ashikawa mit.
+    - Anfang 1983 nahm Midori Takada ihre erste Solo-LP, Through The Looking Glass, in drei Tagen auf. Sie spielt alle Parts auf dem Album, mit einer abwechslungsreichen Instrumentierung, darunter Perkussion, Marimba, Gong, Harmonium, Glocken, Okarina, Klavier und Coca-Cola-Glasflaschen. Das Album war bei seiner Veröffentlichung kommerziell nicht erfolgreich, erreichte aber in den späten 2010er Jahren Sammler und wurde dank des Internetvertriebs zu einem Sammlerstück.
+    - Das Album wurde 2017 auf Vinyl und CD neu aufgelegt und wurde als "minimalistisches Ambient-Meisterwerk" gefeiert. Pitchfork nannte das Album "Best new reissue" und es wurde die zweitbestverkaufte Veröffentlichung des Jahres 2017 auf Discogs.
+#    - Midori Takada (born 21 December 1951) is a Japanese composer and percussionist. She is considered a pioneer of ambient and minimalist music.
+#    - Takada graduated from Tokyo University of the Arts and began her musical career in the mid-1970s as a percussionist with the Berlin RIAS Symphony Orchestra. She became dissatisfied with the Western classical music tradition and returned to Japan to study African drumming and Indonesian gamelan, as well as the early minimalism of Steve Reich and Terry Riley. She channelled these influences into the group Mkwaju Ensemble, which she formed with Joe Hisaishi, Yoji Sadanari, Junko Arase and Hideki Matsutake. Mkwaju Ensemble released two albums, Mkwaju and Ki-Motion, in 1981, and she also appeared on recordings by Toru Takemitsu and Satoshi Ashikawa at this time.
+#    - Takada recorded her first solo LP, Through The Looking Glass, in three days in early 1983. She plays all the parts on the album, with varied instrumentation including percussion, marimba, gong, harmonium, bells, ocarina, piano and Coca-Cola glass bottles. The album was not commercially successful on release, but reached collectors in the late 2010s to become a collector's item thanks to internet distribution.
+#    - The album was reissued on vinyl and CD in 2017 and was hailed as a "minimalist ambient masterpiece". Pitchfork named the album "Best new reissue" and it became the second best-selling release of 2017 on Discogs.
   exclude_from_main_menu: true
 - name: Kinder der Schule auf der Veddel
   date: 2022-06-01
@@ -103,17 +117,18 @@
     - In den acht Schuljahren von 2000/2001 bis 2007/2008 verließen 130 Schüler die Schule mit Hauptschulabschluss, 93 Schüler (41 %) wurden ohne Schulabschluss entlassen.
     - Bei der Erhebung des Sozialindex für Hamburger Schulen 2011 wurde für die Schule auf der Veddel ein Sozialindex von 1 errechnet. Die Skala reicht von 1 (nachteilige Voraussetzungen der Schülerschaft, höchster Förderbedarf) bis 6 (beste Voraussetzungen, kein Förderbedarf).
     - Im Schuljahr 2016/17 hatten gut 90 % der Schüler an der Schule auf der Veddel einen Migrationshintergrund, fast doppelt so viel wie der Durchschnitt aller Hamburger Stadtteilschulen.
+  website: https://schule-auf-der-veddel.hamburg.de/
   exclude_from_main_menu: true
 - name: Olaf Nicolai
   date: 2022-07-01
   description:
     - Olaf Nicolai wuchs in Karl-Marx-Stadt, heute Chemnitz, auf. Sein Bruder ist der Musiker Carsten Nicolai.
     - Olaf Nicolai absolvierte von 1983 bis 1988 ein Studium der Germanistik mit anschließender Promotion an der Universität Leipzig. Das Thema seiner Doktorarbeit mit dem Titel Geste zwischen Expression und Kalkül.
-    - Zur Poetik der Wiener Gruppe, worin er die Spannung zwischen Ausdrucksformen und ihre strategische Umsetzung untersuchte[2], findet sich auch in seinem eigenen künstlerischen Werk.
+    - Zur Poetik der Wiener Gruppe, worin er die Spannung zwischen Ausdrucksformen und ihre strategische Umsetzung untersuchte, findet sich auch in seinem eigenen künstlerischen Werk.
     - Seit Anfang der 1990er Jahre ist er mit Gruppen- wie mit Einzelausstellungen an inzwischen fast allen wichtigen Orten des zeitgenössischen Kunstgeschehens präsent.
     - Olaf Nicolai war sowohl auf der Documenta X (1997) wie auf den Biennalen 49 und 51 von Venedig (2001 und 2005) vertreten. Er erhielt mehrere Stipendien, darunter das der Villa Massimo in Rom (1998).
     - 1996 bekam er den Botho-Graef-Preis, 1999 den Bremer Kunstpreis und im Jahr 2002 wurde er mit dem Kunstpreis Junge Stadt sieht junge Kunst der Stadt Wolfsburg ausgezeichnet.
     - Für seine gemeinsam mit Frank Bretschneider realisierte Arbeit In the Woods There Is A Bird… erhält Nicolai 2017 den Karl-Sczuka-Preis. Im Mai 2018 erhielt er den Wilhelm-Loth-Preis der Stadt Darmstadt.
     - Seit 2011 ist Olaf Nicolai Professor für Bildhauerei und Grundlagen des dreidimensionalen Gestaltens an der Akademie der Bildenden Künste München.
-    - Olaf Nicolai ist Mitglied im Deutschen Künstlerbund.[5] Er lebt und arbeitet in Berlin-Prenzlauer Berg.
+    - Olaf Nicolai ist Mitglied im Deutschen Künstlerbund. Er lebt und arbeitet in Berlin-Prenzlauer Berg.
   exclude_from_main_menu: true
