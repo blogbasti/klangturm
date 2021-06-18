@@ -29,6 +29,8 @@ deploy:
   # deploy main to live (ftp)
   - provider: script
     script: bash scripts/deploy.sh
+    edge: true
+    cleanup: false
     on:
       all_branches: true # just for testing
       # branch: main
