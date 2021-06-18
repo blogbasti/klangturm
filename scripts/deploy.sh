@@ -141,6 +141,7 @@ function env_is_set_or_error() {
     info "ENV ${var} found"
   fi
 }
+declare -x env_is_set_or_error
 
 function rclone_config() {
   env_is_set_or_error RCLONE_FTP_HOST
@@ -168,8 +169,11 @@ function deploy2live_ftp() {
 # main
 
 info "start at $(date)"
+env_is_set_or_error TRAVIS_BUILD_DIR
 install_requirements
-
+info "cd TRAVIS_BUILD_DIR: $TRAVIS_BUILD_DIR"
+cd $TRAVIS_BUILD_DIR
+ls -lisa
 (
   (
     deploy2live_ftp
