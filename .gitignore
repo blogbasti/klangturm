@@ -6,3 +6,6 @@ bin/
 .bundle/
 vendor/
 #
+scripts/rclone
+tmp_unzip_dir_for_rclone/
+rclone-current-linux-arm64.zip

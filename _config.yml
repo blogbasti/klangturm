@@ -55,3 +55,5 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - tmp_unzip_dir_for_rclone/
+  - rclone-current-linux-arm64.zip

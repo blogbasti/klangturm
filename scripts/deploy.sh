@@ -9,6 +9,7 @@ exec 5>&1
 exec 6>&2
 
 declare -rx me="$(basename $0)"
+declare -rx script_basedir="$(dirname $(realpath $0))"
 declare -rx my_pid="$$"
 
 set -e
@@ -28,13 +29,76 @@ function wrap_logline() {
 }
 declare -x wrap_logline
 
+function install_rclone() {
+  #detect the platform
+  OS="$(uname)"
+  case $OS in
+    Linux)
+      OS='linux'
+      ;;
+    FreeBSD)
+      OS='freebsd'
+      ;;
+    NetBSD)
+      OS='netbsd'
+      ;;
+    OpenBSD)
+      OS='openbsd'
+      ;;
+    Darwin)
+      OS='osx'
+      ;;
+    SunOS)
+      OS='solaris'
+      echo 'OS not supported'
+      exit 2
+      ;;
+    *)
+      echo 'OS not supported'
+      exit 2
+      ;;
+  esac
+  OS_type="$(uname -m)"
+  case "$OS_type" in
+    x86_64|amd64)
+      OS_type='amd64'
+      ;;
+    i?86|x86)
+      OS_type='386'
+      ;;
+    aarch64|arm64)
+      OS_type='arm64'
+      ;;
+    arm*)
+      OS_type='arm'
+      ;;
+    *)
+      echo 'OS type not supported'
+      exit 2
+      ;;
+  esac
+  #
+  current_version=$(curl -f https://downloads.rclone.org/version.txt)
+  download_link="https://downloads.rclone.org/rclone-current-${OS}-${OS_type}.zip"
+  rclone_zip="rclone-current-${OS}-${OS_type}.zip"
+  curl -Of "$download_link"
+  unzip_dir="tmp_unzip_dir_for_rclone"
+  unzip -a "$rclone_zip" -d "$unzip_dir"
+  cd $unzip_dir/*
+  cp rclone $script_basedir
+  chmod 755 $script_basedir/rclone
+  # update path to allow other methods to find rclone
+  export PATH="$script_basedir:$PATH"
+}
+
 function install_requirements() {
   # apt-get update
   # install curl for rclone download
   # apt-get install -fy curl unzip moreutils
   export _LOGLINE_ENABLED=1
   # install rclone
-  rclone version >/dev/null || curl https://rclone.org/install.sh | bash
+  # rclone version >/dev/null || curl https://rclone.org/install.sh | bash
+  install_rclone
   # show rclone version
   rclone version
 }
