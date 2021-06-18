@@ -29,9 +29,9 @@ function wrap_logline() {
 declare -x wrap_logline
 
 function install_requirements() {
-  apt-get update
+  # apt-get update
   # install curl for rclone download
-  apt-get install -fy curl unzip moreutils
+  # apt-get install -fy curl unzip moreutils
   export _LOGLINE_ENABLED=1
   # install rclone
   rclone version >/dev/null || curl https://rclone.org/install.sh | bash
@@ -42,7 +42,7 @@ function install_requirements() {
 function msg() {
   local msg="$@"
   if [ ${_LOGLINE_ENABLED:-0} -eq 1 ]; then
-    echo "$msg" | logline 
+    echo "$msg" | logline
   else
     echo "$msg" >&3
   fi
@@ -97,7 +97,7 @@ function deploy2live_ftp() {
     error "_site folder not found"
     exit 1
   fi
-  # deploy 
+  # deploy
   rclone sync ./_site live:/html/klangturm -n
 }
 
