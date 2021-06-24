@@ -163,7 +163,9 @@ function deploy2live_ftp() {
     exit 1
   fi
   # deploy
-  graftcp rclone sync ./_site live:/html/klangturm -n
+  . torsocks on
+  torsocks show
+  rclone sync ./_site live:/html/klangturm -n
 }
 
 # main
