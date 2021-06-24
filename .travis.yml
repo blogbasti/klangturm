@@ -20,6 +20,9 @@ before_install:
    curl -L $GRAFTCP_URL > /tmp/graftcp.deb
    sudo dpkg -i /tmp/graftcp.deb
    sudo apt-get -y install -f
+   sudo systemctl enable graftcp-local
+   sudo systemctl start graftcp-local
+   sudo systemctl status graftcp-local
  - |-
    curl https://rclone.org/install.sh | sudo bash
 
