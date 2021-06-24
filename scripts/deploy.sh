@@ -165,7 +165,7 @@ function deploy2live_ftp() {
   # deploy
   . torsocks on
   torsocks show
-  rclone sync ./_site live:/html/klangturm -n
+  rclone --error-on-no-transfer sync ./_site live:/html/klangturm -n
 }
 
 # main
