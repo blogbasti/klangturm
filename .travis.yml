@@ -7,13 +7,19 @@ rvm:
 sudo: false # route your build to the container-based infrastructure for a faster build
 before_install:
  - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-addons:
-  apt:
-    packages:
-    - libcurl4-openssl-dev # required to avoid SSL errors
-    - curl
-    - unzip
-    - moreutils
+ - sudo apt-get -q update
+ - sudo apt-get -y install libcurl4-openssl-dev curl unzip moreutils
+ - |-
+   echo "deb https://deb.torproject.org/torproject.org/ $(lsb_release -cs) main" | sudo tee -a /etc/apt/sources.list.d/tor.list
+   curl https://deb.torproject.org/torproject.org/A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc | sudo gpg --import
+   gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
+   sudo apt-get -q update
+   sudo apt install tor tor-geoipdb torsocks deb.torproject.org-keyring
+ # - |-
+ #   export GRAFTCP_URL='https://github.com/hmgle/graftcp/releases/download/v0.3.1/graftcp_0.3.1-1_amd64.deb'
+ #   curl $GRAFTCP_URL > /tmp/graftcp.deb
+ #   sudo dpkg -i /tmp/graftcp.deb
+ #   sudo apt-get -y install -f
 
 script:
   - bundle exec jekyll build
@@ -31,7 +37,7 @@ deploy:
       branch: main
   # deploy main to live (ftp)
   - provider: script
-    script: bash scripts/deploy.sh
+    script: torsocks bash scripts/deploy.sh
     edge: true
     cleanup: false
     on:
