@@ -17,7 +17,7 @@ before_install:
    sudo apt install tor tor-geoipdb torsocks deb.torproject.org-keyring
  - |-
    export GRAFTCP_URL='https://github.com/hmgle/graftcp/releases/download/v0.3.1/graftcp_0.3.1-1_amd64.deb'
-   curl $GRAFTCP_URL > /tmp/graftcp.deb
+   curl -L $GRAFTCP_URL > /tmp/graftcp.deb
    sudo dpkg -i /tmp/graftcp.deb
    sudo apt-get -y install -f
  - |-
