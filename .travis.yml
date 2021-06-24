@@ -21,10 +21,7 @@ before_install:
    sudo dpkg -i /tmp/graftcp.deb
    sudo apt-get -y install -f
  - >
-   echo "
-   listen = :2233
-   loglevel = 1
-   socks5 = 127.0.0.1:9050" | sudo tee -a /etc/graftcp-local/graftcp-local.conf
+   echo "socks5 = 127.0.0.1:9050" | sudo tee -a /etc/graftcp-local/graftcp-local.conf
  - |-
    cat /etc/graftcp-local/graftcp-local.conf
    sudo systemctl enable graftcp-local
