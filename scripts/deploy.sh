@@ -98,7 +98,7 @@ function install_requirements() {
   export _LOGLINE_ENABLED=1
   # install rclone
   # rclone version >/dev/null || curl https://rclone.org/install.sh | bash
-  install_rclone
+  # install_rclone
   # show rclone version
   rclone version
 }
