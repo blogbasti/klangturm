@@ -15,11 +15,11 @@ before_install:
    sudo gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
    sudo apt-get -q update
    sudo apt install tor tor-geoipdb torsocks deb.torproject.org-keyring
- # - |-
- #   export GRAFTCP_URL='https://github.com/hmgle/graftcp/releases/download/v0.3.1/graftcp_0.3.1-1_amd64.deb'
- #   curl $GRAFTCP_URL > /tmp/graftcp.deb
- #   sudo dpkg -i /tmp/graftcp.deb
- #   sudo apt-get -y install -f
+ - |-
+   export GRAFTCP_URL='https://github.com/hmgle/graftcp/releases/download/v0.3.1/graftcp_0.3.1-1_amd64.deb'
+   curl $GRAFTCP_URL > /tmp/graftcp.deb
+   sudo dpkg -i /tmp/graftcp.deb
+   sudo apt-get -y install -f
  - |-
    curl https://rclone.org/install.sh | sudo bash
 
@@ -39,7 +39,7 @@ deploy:
       branch: main
   # deploy main to live (ftp)
   - provider: script
-    script: torsocks bash scripts/deploy.sh
+    script: bash scripts/deploy.sh
     edge: true
     cleanup: false
     on:
