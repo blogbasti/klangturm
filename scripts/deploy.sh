@@ -176,6 +176,7 @@ cd $TRAVIS_BUILD_DIR
 ls -lisa
 (
   (
+    set -e
     deploy2live_ftp
     info "finished"
   ) | logline "stdout" >&3
