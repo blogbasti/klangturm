@@ -34,5 +34,5 @@ deploy:
     cleanup: false
     edge: true
     on:
-      all_branches: true # just for testing
-      # branch: main
+      # all_branches: true # just for testing
+      branch: main
