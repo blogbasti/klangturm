@@ -32,6 +32,7 @@ deploy:
     base_branch: gh-pages
     branch: live
     cleanup: false
+    edge: true
     on:
       all_branches: true # just for testing
       # branch: main
