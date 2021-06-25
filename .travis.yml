@@ -26,7 +26,8 @@ deploy:
   # deploy main to live via Plesk git method
   - provider: git_push
     local_dir: _site # publish static page only
-    token: $GITHUB_TOKEN
+    github_token: $GITHUB_TOKEN
+    skip_cleanup: true
     commit_message: "Deploy %{project_name} to %{url}:%{target_branch}"
     base_branch: gh-pages
     branch: live
