@@ -28,7 +28,7 @@ deploy:
     local_dir: _site # publish static page only
     github_token: $GITHUB_TOKEN
     skip_cleanup: true
-    commit_message: "Deploy Website to %{url}:%{target_branch}"
+    commit_message: "Deploy Website to %{branch}"
     base_branch: gh-pages
     branch: live
     cleanup: false
