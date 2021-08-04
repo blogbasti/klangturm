@@ -3,6 +3,7 @@ layout: page
 title: Reviews
 permalink: /reviews/
 ---
+<div><a href="https://faitiche.de/blog/2021/07/02/sounds-for-bell-tower-klangturm-hamburg-veddel">Faitiche, 02.07.2021</a></div>
 <div><a href="https://www.zeit.de/hamburg/2021-07/elbvertiefung-13-07-2021">Zeit Online, 13.07.2021</a></div>
 <div><a href="https://www.kirche-hamburg.de/nachrichten/details/elektro-klaenge-vom-kirchturm.html">Kirche Hamburg, 13.07.2021</a></div>
 <div><a href="https://www.mopo.de/hamburg/hamburg-dieser-kirchturm-wird-zum-klangturm/">Hamburger Morgenpost, 14.07.2021</a></div>
