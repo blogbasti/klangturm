@@ -8,6 +8,11 @@ layout: default
   </header>
 
   <div class="post-content">
+    {%- if page.picture -%}
+    <p>
+      <img src="{{ page.picture | relative_url }}" alt="{{ page.title | escape }}" />
+    </p>
+    {%- endif -%}
     {%- if page.description.first -%}
     {%-   for p in page.description -%}
     <p>{{ p }}</p>
