@@ -41,10 +41,12 @@
       </ul>
   website: http://www.andrewpekler.com/
   bandcamp: https://andrewpekler.bandcamp.com/
+  picture: assets/img/artists/AndrewPekler.jpg
   exclude_from_main_menu: true
 - name: Nika Son
   date: 2021-08-01
   description:
+    - Foto (c) Ralf Köster
     - Nika Breithaupt alias Nika Son arbeitet als Musikerin, Künstlerin, DJ und Film-Sounddesignerin, nachdem sie 2012 ihr Studium der Bildenden Kunst an der Hochschule für bildende Künste in Hamburg (HfbK) abgeschlossen hat.
     - Als Klangkünstlerin ist sie eine engagierte Jägerin nach außergewöhnlichen Klängen und Entdeckungen neuer und alter Technologien in der Musik. Klänge unterschiedlichster Herkunft werden in eine sehr ungewöhnliche musikalische Sprache übersetzt, so als würde man dem Hörbaren zusehen.
     - Beeinflusst von der Musique Concrète und den Weiten der elektronischen Musik entstehen ihre Kompositionen aus deformierten und fragmentierten Fieldrecordings, die sie mit analogen Synthesizerlinien, gebrochenen Rhythmen, seltenen Stimmfetzen und gefilterten Tonbandschichten verwebt.
@@ -53,6 +55,7 @@
     - Nika Breithaupt lebt und arbeitet in Hamburg.
   website: http://www.nikason.de/
   bandcamp: https://nikason.bandcamp.com/
+  picture: assets/img/artists/NikaSon.jpg
   exclude_from_main_menu: true
 - name: Félicia Atkinson
   date: 2021-09-01
@@ -75,6 +78,7 @@
 
   website: https://feliciaatkinson.com/
   bandcamp: https://feliciaatkinson.bandcamp.com/
+  picture: assets/img/artists/FeliciaAtkinson.jpg
   exclude_from_main_menu: true
 - name: Hans Schüttler
   date: 2021-10-01
