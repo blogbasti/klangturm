@@ -92,6 +92,7 @@
     - Hans Schüttler lebt und arbeitet in Hamburg.
   website: https://www.hansschuettler.de/
   youtube: https://www.youtube.com/watch?v=S8NVlYsoSYI
+  picture: assets/img/artists/HansSchuettler.jpg
   exclude_from_main_menu: true
 - name: Tintin Patrone
   date: 2021-11-01
