@@ -288,6 +288,10 @@ body { font-family: 'Roboto Regular'; }
 
 @media screen and (max-width: 600px) { .footer-sponsors img { height: 40px; } }
 
+.footer-partners img { height: 100px; }
+
+@media screen and (max-width: 600px) { .footer-partners img { height: 40px; } }
+
 .footer-col-1 { width: -webkit-calc(40% - (30px / 2)); width: calc(40% - (30px / 2)); }
 
 @media screen and (max-width: 600px) { .footer-col-1 { width: calc(100% - (30px / 2)); } }
