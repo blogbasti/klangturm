@@ -30,3 +30,15 @@ by Gwärtler Foundation as well as by Verfügungsfonds of the Hamburg-Veddel dis
   </div>
 
 {%- endif -%}
+{%- if site.data.partners.show.in_about -%}
+
+<br/>
+  <div class="footer-partners">
+  <p class="partners-title">Kooperationspartner:</p>
+  {%- assign partners = site.data.partners.members -%}
+  {%- for partner in partners -%}
+  <img src="{{ partner.logo | relative_url }}" alt="{{ partner.name }}" style="{{ partner.style }}"/>
+  {%- endfor -%}
+  </div>
+
+{%- endif -%}

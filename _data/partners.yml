@@ -1,0 +1,7 @@
+show:
+  in_footer: false
+  in_about: true
+members:
+- name: ByteFM
+  logo: assets/img/partners/ByteFM-Logo.png
+  style: 'padding-left: 0px; padding-right: 20px; padding-bottom: 40px'

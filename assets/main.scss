@@ -74,6 +74,15 @@ body {
   }
 }
 
+.footer-partners {
+  img {
+    @include media-query($on-palm) {
+      height: 40px;
+    }
+    height: 100px;
+  }
+}
+
 .footer-col-1 {
   @include media-query($on-palm) {
     width: calc(100% - (30px / 2));
