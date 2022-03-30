@@ -105,6 +105,7 @@
   exclude_from_main_menu: true
 - name: Derya Yildirim
   description:
+    - photo © Katja Ruge
     - Die Hamburger Musikerin Derya Yıldırım wuchs auf der Veddel auf und ist seit einigen Jahren die Speerspitze des türkisch-europäischen Crossover. Die Multi-Instrumentalistin erlernte von Kindesbeinen an Klavier, Gitarre, Ud, Saxofon und Bağlama. Von 2013 bis 2016 studierte sie an der Hamburger Musikhochschule und schloss Anfang 2020 ihr Studium im Fach Bağlama bei Taner Akyol an der Universität der Künste in Berlin ab.
     - Yıldırım arrangiert die reiche traditionelle türkische Poesie immer wieder neu und führt sie in die Zukunft, ohne dabei das Bewusstsein für die Vergangenheit zu verlieren.
     - Um die junge mittlerweile in Berlin lebende Musikerin hat sich eine trans-kontinental besetzte Band gebildet, Derya Yıldırım & Grup Şimşek. Die Symbiose aus anatolischer Volksmusik, modernen Grooves und Andeutungen von Psychedelia, Jazz und Funk wurde bereits als „neue deutsch-anatolische Psycho-Pop-Sensation“ gefeiert (Junge Welt).
@@ -118,6 +119,7 @@
     - Neben ihren Aktivitäten als Musikerin hat Derya Yıldırım eine eigene Radioshow beim unabhängigen community Radio am Tempelhofer Feld in Berlin (thf-Radio). bağlama_spezial.mp3.
     - Über diesen digitalen Weg versucht sie, der Bağlama und der anatolischen Musik einen Raum zu geben, damit sie auch zu den entlegensten Orten vordringt und sich etabliert.
     - Denn für Derya Yıldırım ist die Bağlama „wie ein guter Weggefährte“ und die Musik „ein Vermittlungsinstrument, welches sie vorantreibt“.
+  picture: assets/img/artists/DeryaYildirim.jpg
   date: 2021-12-01
   exclude_from_main_menu: true
 - name: Frank Bretschneider
@@ -159,14 +161,13 @@
 - name: Even Tuell
   date: 2022-04-01
   description:
-    - Even-Tuell, bürgerlicher Name Paul David Rollmann (PDR), geboren 1973, lebt und arbeitet in Kleestadt, bei Frankfurt am Main.
-    - Er begann 1992 mit dem DJing und komponiert als Autodidakt seit 1998 elektronische Musik. Die erste Veröffentlichung unter dem Alias "Even Tuell", erschien im Jahr 2001 auf Vinyl.
-    - Audiovisuelle Momentaufnahmen und Verarbeiten von Stimmungen an verschiedensten Orten ist seit Beginn an wichtiger Teil seiner künstlerischen Arbeit. So entstanden mehrere Produktionen und Aufnahmen massgeblich außerhalb des Studios. Seit seiner Öffnung 1999 hat er im Robert Johnson Club in Offenbach eine regelmässige DJ Residency.
-    - Als DJ spielt er Sets in bekannten Clubs und Festivals in Europa, Asien, besonders Japan & Australien. Zu seinen eigenen Veranstaltungen „Workshop Nights“ und „ARTIFICIAL HAPPINESS“ lädt er bekannte elektronische Künstler sowie neue Talente der Elektronik-Szene ein.
-    - 1999 veröffentlichte er mit seinem Musikfreund Jens Kuhn die Serie „Airbag Craftworks Compilation“ auf dessen Label “Out to Lunch”. Die musikalischen Vorlieben der beiden zeigen ausgewählte Tracks von Künstlern wie u.a. Isolée, Jan Jelinek, Roman Flügel & David Moufang.
-    - Die leidenschaftliche Zusammenarbeit und Erweiterung ihres Musiknetzwerks legt den Grundstein für die Gründung ihres eigenen Labels Workshop Records. Workshop Records wird seit 2006 von PDR gemeinsam mit Kuhn geführt und hat bisher mehr als 30 (Vinyl-) Titel internationaler Künstler veröffentlicht. Darunter zählen Kassem Mosse, Move D, Willow, Madteo, Viola Klein, Benjamin Brunn, Ibrahim Alfa, Kiki Kudo, Tapes, Dj Slyngshot u.a.
-    - Even Tuell veröffentlichte 2013 zusammen mit Midnightopera 3 Kompositionen basierend auf Klangaufnahmen & gespielten Passagen verschiedener Exponate (Musikinstrumente) der Ausstellung „Trading Style -Weltmode im Dialog“, Weltkulturen Museum Frankfurt am Main.
-    - Paul David Rollmenn ist gelernter Modeschneider und Gründer sowie Kreativdirektor des Modelabels Airbag Craftworks.
+    - Paul David Rollmann (PDR) works as a multidisciplinary artist and designer whose music is prominently featured in his creative work. Led by an intuitive approach, his works are reductive yet rich with anecdotes. PDR began producing electronic music in the late 90s and released records on labels such as Out to Lunch, Workshop, Latency, Meakusma, a.o. under the alias Even Tuell. He has held a DJ residency at the Robert Johnson Club, Offenbach since its early days and plays records across Europe and Asia.
+    - In addition to his artistic practice, PDR co-runs independent music imprint Workshop Records together with Jens Kuhn and directs his design brand Airbag Craftworks. Since 2006, Workshop Records has cultivated more than 30 releases from international leftfield musicians such as Kassem Mosse, Move D, Viola Klein, Willow, YPY, DJ Slyngshot, PST a.o. His design brand, Airbag Craftworks, which takes account of both ecological aspects and cultural sustainability, regularly collaborates with interdisciplinary artists and labels.
+    - The work of PDR often refers to the present moment. Audiovisual snapshots and the treatment of moods in diverse remote locations have always been an important part of PDR’s expression. His photography book, Lifetakes (1991books, Paris), compiles low-resolution .jpeg images with the Sony MVC-FD7. His photographic oeuvres have been featured on record covers, prints, and textiles. PDR currently lives and works in Kleestadt near Frankfurt am Main.
+    - For the Klangturm Veddel project, PDR deals with the theme “BACKSTEIN” aka “brick”. He composed various sound clips and miniatures including live-played “gong-sounds” of a mid-size unique piece of volcanic rock borrowed from a Canary Island and 5 different custom-built instruments made by ceramic Artist David Rauer.
+    - In some compositions, he combined the sounds of stone with synthesizer and field recordings to create a wider spectrum of audio moods and “bell grooves” to resonate during the different daytimes. 13 pieces were made for the “working days” and another 13 pieces are dedicated to the weekend.
+  picture: assets/img/artists/EvenTuell.jpg
+  website: https://soundcloud.com/even-tuell
   exclude_from_main_menu: true
 - name: Midori Takada
   date: 2022-05-01
