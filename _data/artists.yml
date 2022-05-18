@@ -174,14 +174,20 @@
   date: 2022-05-01
   discogs: https://www.discogs.com/artist/408787-Midori-Takada
   description:
+    - photo © Go Itami
+    - |
+      <b>German:</b>
     - Midori Takada (geboren am 21. Dezember 1951) ist eine japanische Komponistin und Perkussionistin. Sie gilt als Pionierin der Ambient- und minimalistischen Musik.
     - Sie absolvierte die Tokyo University of the Arts und begann ihre musikalische Karriere Mitte der 1970er Jahre als Perkussionistin im Berliner RIAS-Sinfonieorchester. Sie wurde unzufrieden mit der westlichen klassischen Musiktradition und kehrte nach Japan zurück, um afrikanisches Trommeln und indonesisches Gamelan zu studieren, sowie den frühen Minimalismus von Steve Reich und Terry Riley. Diese Einflüsse kanalisierte sie in die Gruppe Mkwaju Ensemble, die sie mit Joe Hisaishi, Yoji Sadanari, Junko Arase und Hideki Matsutake gründete. Das Mkwaju Ensemble veröffentlichte 1981 zwei Alben, Mkwaju und Ki-Motion, und sie wirkte zu dieser Zeit auch auf Aufnahmen von Toru Takemitsu und Satoshi Ashikawa mit.
     - Anfang 1983 nahm Midori Takada ihre erste Solo-LP, Through The Looking Glass, in drei Tagen auf. Sie spielt alle Parts auf dem Album, mit einer abwechslungsreichen Instrumentierung, darunter Perkussion, Marimba, Gong, Harmonium, Glocken, Okarina, Klavier und Coca-Cola-Glasflaschen. Das Album war bei seiner Veröffentlichung kommerziell nicht erfolgreich, erreichte aber in den späten 2010er Jahren Sammler und wurde dank des Internetvertriebs zu einem Sammlerstück.
     - Das Album wurde 2017 auf Vinyl und CD neu aufgelegt und wurde als "minimalistisches Ambient-Meisterwerk" gefeiert. Pitchfork nannte das Album "Best new reissue" und es wurde die zweitbestverkaufte Veröffentlichung des Jahres 2017 auf Discogs.
-#    - Midori Takada (born 21 December 1951) is a Japanese composer and percussionist. She is considered a pioneer of ambient and minimalist music.
-#    - Takada graduated from Tokyo University of the Arts and began her musical career in the mid-1970s as a percussionist with the Berlin RIAS Symphony Orchestra. She became dissatisfied with the Western classical music tradition and returned to Japan to study African drumming and Indonesian gamelan, as well as the early minimalism of Steve Reich and Terry Riley. She channelled these influences into the group Mkwaju Ensemble, which she formed with Joe Hisaishi, Yoji Sadanari, Junko Arase and Hideki Matsutake. Mkwaju Ensemble released two albums, Mkwaju and Ki-Motion, in 1981, and she also appeared on recordings by Toru Takemitsu and Satoshi Ashikawa at this time.
-#    - Takada recorded her first solo LP, Through The Looking Glass, in three days in early 1983. She plays all the parts on the album, with varied instrumentation including percussion, marimba, gong, harmonium, bells, ocarina, piano and Coca-Cola glass bottles. The album was not commercially successful on release, but reached collectors in the late 2010s to become a collector's item thanks to internet distribution.
-#    - The album was reissued on vinyl and CD in 2017 and was hailed as a "minimalist ambient masterpiece". Pitchfork named the album "Best new reissue" and it became the second best-selling release of 2017 on Discogs.
+    - |
+      <b>English:</b>
+    - Midori Takada (born 21 December 1951) is a Japanese composer and percussionist. She is considered a pioneer of ambient and minimalist music.
+    - Takada graduated from Tokyo University of the Arts and began her musical career in the mid-1970s as a percussionist with the Berlin RIAS Symphony Orchestra. She became dissatisfied with the Western classical music tradition and returned to Japan to study African drumming and Indonesian gamelan, as well as the early minimalism of Steve Reich and Terry Riley. She channelled these influences into the group Mkwaju Ensemble, which she formed with Joe Hisaishi, Yoji Sadanari, Junko Arase and Hideki Matsutake. Mkwaju Ensemble released two albums, Mkwaju and Ki-Motion, in 1981, and she also appeared on recordings by Toru Takemitsu and Satoshi Ashikawa at this time.
+    - Takada recorded her first solo LP, Through The Looking Glass, in three days in early 1983. She plays all the parts on the album, with varied instrumentation including percussion, marimba, gong, harmonium, bells, ocarina, piano and Coca-Cola glass bottles. The album was not commercially successful on release, but reached collectors in the late 2010s to become a collector's item thanks to internet distribution.
+    - The album was reissued on vinyl and CD in 2017 and was hailed as a "minimalist ambient masterpiece". Pitchfork named the album "Best new reissue" and it became the second best-selling release of 2017 on Discogs.
+  picture: assets/img/artists/MidoriTakada.jpg
   exclude_from_main_menu: true
 - name: Kinder der Schule auf der Veddel
   date: 2022-06-01
