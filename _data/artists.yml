@@ -198,11 +198,14 @@
     - Bei der Erhebung des Sozialindex für Hamburger Schulen 2011 wurde für die Schule auf der Veddel ein Sozialindex von 1 errechnet. Die Skala reicht von 1 (nachteilige Voraussetzungen der Schülerschaft, höchster Förderbedarf) bis 6 (beste Voraussetzungen, kein Förderbedarf).
     - Im Schuljahr 2016/17 hatten gut 90 % der Schüler an der Schule auf der Veddel einen Migrationshintergrund, fast doppelt so viel wie der Durchschnitt aller Hamburger Stadtteilschulen.
   website: https://schule-auf-der-veddel.hamburg.de/
+  picture: assets/img/artists/Schule.jpeg
   exclude_from_main_menu: true
 - name: Olaf Nicolai
   date: 2022-07-01
   description:
-    - Olaf Nicolai wuchs in Karl-Marx-Stadt, heute Chemnitz, auf. Sein Bruder ist der Musiker Carsten Nicolai.
+    - photo © Hans-Günther Kaufmann
+    - Olaf Nicolai wurde 1962 in Halle/Saale geboren und wuchs in Karl-Marx-Stadt, heute Chemnitz, auf. Heute gehört er zu den führenden deutschen Künstlern.
+    - Er arbeitet fast ausschließlich konzeptionell, beschäftigt sich u.a. mit mathematischen Modellen, universellen Algorithmen, Symboliken und Wiederholungen.
     - Olaf Nicolai absolvierte von 1983 bis 1988 ein Studium der Germanistik mit anschließender Promotion an der Universität Leipzig. Das Thema seiner Doktorarbeit mit dem Titel Geste zwischen Expression und Kalkül.
     - Zur Poetik der Wiener Gruppe, worin er die Spannung zwischen Ausdrucksformen und ihre strategische Umsetzung untersuchte, findet sich auch in seinem eigenen künstlerischen Werk.
     - Seit Anfang der 1990er Jahre ist er mit Gruppen- wie mit Einzelausstellungen an inzwischen fast allen wichtigen Orten des zeitgenössischen Kunstgeschehens präsent.
@@ -211,4 +214,11 @@
     - Für seine gemeinsam mit Frank Bretschneider realisierte Arbeit In the Woods There Is A Bird… erhält Nicolai 2017 den Karl-Sczuka-Preis. Im Mai 2018 erhielt er den Wilhelm-Loth-Preis der Stadt Darmstadt.
     - Seit 2011 ist Olaf Nicolai Professor für Bildhauerei und Grundlagen des dreidimensionalen Gestaltens an der Akademie der Bildenden Künste München.
     - Olaf Nicolai ist Mitglied im Deutschen Künstlerbund. Er lebt und arbeitet in Berlin-Prenzlauer Berg.
+    - |
+      <b>Olaf Nicolais Arbeit für den Klangturm Hamburg-Veddel:</b>
+      <ul>
+        <li>Konzept: Olaf Nicolai</li>
+        <li>Ausführung: Theo Nabicht</li>
+      </ul>
   exclude_from_main_menu: true
+  picture: assets/img/artists/OlafNicolai.jpeg
