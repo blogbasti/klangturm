@@ -97,12 +97,14 @@
 - name: Tintin Patrone
   date: 2021-11-01
   description:
-    - TinTin Patrone heißt mit bürgerlichem Name Christina Köhler und ist eine deutsch-philippinische Komponistin, Musikerin, Schauspielerin, Film- und Musikproduzentin sowie Malerin, Performancekünstlerin und Autorin. Sie gründete 2009 das Ensemble Krachkisten Orchestra, den International MusicMotorcycleClub 2012 und betreibt parallel verschiedene musikalische und künstlerische Einzelprojekte. Die Verbindung von Musik, Kunst, Sound und experimenteller Geste ist das generelle Feld, für das sich TinTin Patrone interessiert.
+    - Foto © T. Duffe
+    - Tintin Patrone heißt mit bürgerlichem Name Christina Köhler und ist eine deutsch-philippinische Komponistin, Musikerin, Schauspielerin, Film- und Musikproduzentin sowie Malerin, Performancekünstlerin und Autorin. Sie gründete 2009 das Ensemble Krachkisten Orchestra, den International MusicMotorcycleClub 2012 und betreibt parallel verschiedene musikalische und künstlerische Einzelprojekte. Die Verbindung von Musik, Kunst, Sound und experimenteller Geste ist das generelle Feld, für das sich TinTin Patrone interessiert.
     - Ein Fokus ihrer Arbeit liegt auf den visuellen Elementen der Musik, der Spannung zwischen konzeptuellen Ideen und physischer Existenz.
     - Ihre Performances und Installationen beinhalten Elemente aus der musikalischen Konzeptkunst, Fluxus und Futurismus. Eine weitere wichtige Inspiration, die ihre künstlerische Praxis beeinflusst, ist die Kultur der Vereine und Clubs.
     - 2021 ist sie Quartierskünstlerin auf der Veddel.
   website: http://www.tintinpatrone.com/
   exclude_from_main_menu: true
+  picture: assets/img/artists/TintinPatrone.jpg
 - name: Derya Yildirim
   description:
     - photo © Katja Ruge
@@ -198,7 +200,7 @@
     - Bei der Erhebung des Sozialindex für Hamburger Schulen 2011 wurde für die Schule auf der Veddel ein Sozialindex von 1 errechnet. Die Skala reicht von 1 (nachteilige Voraussetzungen der Schülerschaft, höchster Förderbedarf) bis 6 (beste Voraussetzungen, kein Förderbedarf).
     - Im Schuljahr 2016/17 hatten gut 90 % der Schüler an der Schule auf der Veddel einen Migrationshintergrund, fast doppelt so viel wie der Durchschnitt aller Hamburger Stadtteilschulen.
   website: https://schule-auf-der-veddel.hamburg.de/
-  picture: assets/img/artists/Schule.jpeg
+  picture: assets/img/artists/Schule.jpg
   exclude_from_main_menu: true
 - name: Olaf Nicolai
   date: 2022-07-01
