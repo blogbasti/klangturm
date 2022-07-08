@@ -217,8 +217,10 @@
     - |
       <b>Olaf Nicolais Arbeit für den Klangturm Hamburg-Veddel:</b>
       <ul>
+        <li>Titel: "JALE - 22 pieces for the Glockenturm Hamburg - Veddel, each composed from the same set of 8 different notes."</li>
         <li>Konzept: Olaf Nicolai</li>
         <li>Ausführung: Theo Nabicht</li>
       </ul>
   exclude_from_main_menu: true
   picture: assets/img/artists/OlafNicolai.jpeg
+  website: "https://eigen-art.com/start/"
